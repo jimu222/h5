@@ -3,6 +3,9 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
+			<div>
+				
+			</div>
 		</view>
 	</view>
 </template>
@@ -11,13 +14,17 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello1'
+				title: 'Hell22o1'
 			}
 		},
 		onLoad() {
 
 		},
 		methods: {
+			test(){
+			static
+				
+			}
 
 		}
 	}
